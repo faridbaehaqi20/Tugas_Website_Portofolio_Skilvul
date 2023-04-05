@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2% 15%;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #fff0f0;
+}
+
+/* Header CSS */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+nav #navbar ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+}
+
+nav #navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0e2431;
+}
+
+nav #navbar ul li a:hover {
+  color: #f44040;
+}
+
+nav .media-icons {
+  display: flex;
+  justify-content: space space-between;
+  gap: 30px;
+}
+
+nav .media-icons a i {
+  color: #0e2431;
+  font-size: 18px;
+}
+
+nav .media-icons a i:hover {
+  color: #f44040;
+  font-size: 18px;
+}
+
+/* ===HOME=== */
+/* Main CSS */
+/* Hero CSS */
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#hero #hero-greetings .teks-satu {
+  font-size: 25px;
+  margin: 0px 0 10px 0;
+  font-weight: 500;
+}
+
+#hero #hero-greetings .teks-dua {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#hero #hero-greetings .teks-tiga {
+  font-size: 20px;
+  color: #f44040;
+  margin: 15px 0 10px 0;
+  font-weight: 500;
+}
+
+#hero #hero-greetings .teks-empat {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* ===SKILLS=== */
+#skills {
+  margin: 100px 0 50px 0;
+}
+
+#skills .judul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  /* border: 1px solid black; */
+}
+
+#skills .judul .media-icons {
+  border-radius: 50%;
+  background-color: #d2e6f9;
+  padding: 12px;
+}
+
+#skills .judul .media-icons i {
+  font-size: 20px;
+  color: #f44040;
+}
+
+#skills .judul h2 {
+  font-size: 25px;
+  color: #f44040;
+}
+
+#skills .skills {
+  width: 700px;
+  padding: 20px;
+  border-bottom: 1px solid #d2e6f9;
+}
+
+#skills .skills:hover {
+  background-color: #d2e6f9;
+}
+
+#skills .skills:hover h2 {
+  color: #f44040;
+}
+
+#skills .skills h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* ===ABOUT=== */
+
+#about {
+  margin: 100px 0 50px 0;
+}
+
+#about .judul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  /* border: 1px solid black; */
+}
+
+#about .judul .media-icons {
+  border-radius: 50%;
+  background-color: #d2e6f9;
+  padding: 12px;
+}
+
+#about .judul .media-icons i {
+  font-size: 20px;
+  color: #f44040;
+}
+
+#about .judul h2 {
+  font-size: 25px;
+  color: #f44040;
+}
+
+#about .about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .tentang {
+  margin-left: 50px;
+}
+
+#about .tentang h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+#about .tentang p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* ===BLOG=== */
+#blog {
+  margin: 100px 0 50px 0;
+}
+
+#blog .judul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  /* border: 1px solid black; */
+}
+
+#blog .judul .media-icons {
+  border-radius: 50%;
+  background-color: #d2e6f9;
+  padding: 12px;
+}
+
+#blog .judul .media-icons i {
+  font-size: 20px;
+  color: #f44040;
+}
+
+#blog .judul h2 {
+  font-size: 25px;
+  color: #f44040;
+}
+
+#blog .blog {
+  width: 800px;
+  padding: 20px;
+  border-bottom: 1px solid #d2e6f9;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+#blog .blog:hover {
+  background-color: #d2e6f9;
+  cursor: pointer;
+}
+
+#blog .blog:hover .isi-blog h2 {
+  color: #f44040;
+}
+
+#blog .blog .isi-blog h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#blog .blog .tahun-blog p {
+  font-size: 12px;
+}
